@@ -13,3 +13,8 @@ The Android project contains the Android Manifest for the generated APK and an A
 The iOS project does the same thing that the Android one, but for iOS (obviously).
 
 Finally, the Liblinphone project contains the native libraries built by linphone-sdk.
+
+
+How To Run:
+
+- Added a zip file of the project, before run please un-zip and run it in VS.
