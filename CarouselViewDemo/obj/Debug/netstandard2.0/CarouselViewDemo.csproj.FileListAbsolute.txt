@@ -1,0 +1,15 @@
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.csproj.AssemblyReference.cache
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.AssemblyInfoInputs.cache
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.AssemblyInfo.cs
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.csproj.CoreCompileInputs.cache
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/bin/Debug/netstandard2.0/CarouselViewDemo.deps.json
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/bin/Debug/netstandard2.0/CarouselViewDemo.dll
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/bin/Debug/netstandard2.0/ref/CarouselViewDemo.dll
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/bin/Debug/netstandard2.0/CarouselViewDemo.pdb
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.dll
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/ref/CarouselViewDemo.dll
+/Users/findia18/Projects/CarouselViewDemo/CarouselViewDemo/obj/Debug/netstandard2.0/CarouselViewDemo.pdb

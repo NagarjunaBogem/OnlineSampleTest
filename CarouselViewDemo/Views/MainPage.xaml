@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarouselViewDemo.MainPage"
+             xmlns:controls="clr-namespace:CarouselViewDemo.Controls"
+             xmlns:viewmodels="clr-namespace:CarouselViewDemo.ViewModels"
+             Title="Horizontal layout (DataTemplateSelector)">
+
+    <ContentPage.Resources>
+        <DataTemplate x:Key="AudioFileTemplate">
+            <StackLayout>
+                <Frame HasShadow="True"
+                       BorderColor="DarkGray"
+                       CornerRadius="5"
+                       Margin="20"
+                       HeightRequest="300"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand">
+                    <StackLayout>
+                        <Label Text="{Binding Name}" 
+                               FontAttributes="Bold"
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                        <Image Source="{Binding ImageUrl}" 
+                               Aspect="AspectFill"
+                               HeightRequest="200"
+                               WidthRequest="180"
+                               HorizontalOptions="Center" />
+                      
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </DataTemplate>
+
+        <DataTemplate x:Key="VideoFileTemplate">
+            <StackLayout>
+                <Frame HasShadow="True"
+                       BorderColor="DarkGray"
+                       CornerRadius="5"
+                       Margin="20"
+                       HeightRequest="300"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand">
+                    <StackLayout>
+                        <Label Text="{Binding Name}"
+                               TextColor="Silver"
+                               FontAttributes="Bold"
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                        <Image Source="{Binding ImageUrl}" 
+                               Aspect="AspectFill"
+                               Opacity="0.5"
+                               HeightRequest="200"
+                               WidthRequest="180"
+                               HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </DataTemplate>
+
+        <controls:ItemsDataTemplateSelector x:Key="ItemSelector"
+                                             AudioFile="{StaticResource AudioFileTemplate}"
+                                             VideoFile="{StaticResource VideoFileTemplate}" />
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <viewmodels:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <CarouselView ItemsSource="{Binding Items}"
+                  ItemTemplate="{StaticResource ItemSelector}" />
+
+</ContentPage>
